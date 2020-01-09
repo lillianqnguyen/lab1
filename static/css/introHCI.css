@@ -11,7 +11,13 @@
 
 /* this style exists to make it obvious that you've successfully linked
    the CSS to the page. feel free to remove it once the link is working. */
+
+h1{
+     font-family: Helvetica;
+}
+
 body {
+     font-family: Helvetica;
      border: 1px dotted gray;
      padding: 20px;
 }
@@ -31,4 +37,9 @@ body {
      right: 0;
      position: absolute;
      z-index: -1;
+}
+
+.project{
+     margin-left: 20px;
+     display: inline-block;
 }
